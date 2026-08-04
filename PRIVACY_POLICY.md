@@ -1,76 +1,129 @@
-# Privacy Policy for MathxTime Adventure
+# MathxTime Adventure Privacy Policy
 
-**Effective date:** August 2, 2026
+_Last updated: August 4, 2026_
 
-MathxTime Adventure ("the App") is developed by ENGRPANDA ("we", "us", "our"). This policy explains what information the App collects, how it is used, and the choices you have — including special protections for children, since the App is designed for kids learning math.
+This policy explains what information MathxTime Adventure ("the app") collects, how it's used,
+and the choices you and your child have — written for both parents and Google Play review.
 
-## 1. Information We Collect
+## Summary
 
-### Stored only on your device
-When you first open the App, you're asked for a **nickname**, an **age range**, and an optional **school name**. This information — along with your progress, coins, XP, level, streaks, and stats — is saved locally on your device and is **not** sent anywhere unless you turn on Competitive Mode (see below).
+- No account, email address, or real name is ever required to play.
+- Almost everything (profile, progress, coins, gems, streaks) stays on the device.
+- The only feature that sends anything off the device is **Competitive Mode**, which is **off by
+  default** and requires a parent/guardian to pass a simple math gate before it can be turned on.
+- The app shows no advertising. It offers optional real-money in-app purchases (Crystal Packs),
+  gated behind a parental math challenge before the purchase sheet opens.
 
-- We do not ask for a real name, email address, phone number, or physical address.
-- The nickname is player-chosen and is not verified to be a real name.
+## Information stored locally on your device
 
-### Only if you turn on Competitive Mode
-Competitive Mode is off by default. If a player (or their parent/guardian) turns it on to appear on the online leaderboard, the App uploads:
+When a player sets up a profile, the app stores the following **on-device only** (via local
+storage, not uploaded anywhere):
 
-- Nickname, chosen avatar, school name (if provided), and age range
-- Game mode, score, accuracy, and time for that leaderboard entry
-- An anonymous device identifier (an anonymous Firebase account ID — no password or email is attached to it)
+- A player-chosen nickname (not a legal name) and, optionally, a school name
+- A selected companion/avatar
+- Progress: level, XP, coins, gems, login streaks, unlocked titles/themes/achievements
 
-This data is stored in our backend (Google Firebase/Firestore) and is **publicly readable** as part of the leaderboard feature, so the same care that applies to anything shared publicly online applies here. We deliberately never collect or store city, province, country, or address information, precisely because combining a nickname with a location could make a child identifiable in the real world.
+This data stays on the device and is never transmitted unless Competitive Mode is turned on (see
+below). It persists until the app is uninstalled or the player resets their profile from Settings.
 
-### Automatically collected diagnostic data
-The App uses the following third-party services to keep it running smoothly:
+## Competitive Mode (off by default)
 
-- **Firebase Crashlytics** — collects crash reports and basic device/app diagnostic information (device model, OS version, app version) to help us fix bugs. This is enabled only in the version of the App published to the Play Store, not in development builds.
-- **Firebase Analytics** — may collect standard, aggregated usage data (such as app opens and screen views) to help us understand how the App is used. This data is not linked to any player's name or identity.
-- **Google Play Games Services** — if a player signs in with Google Play Games, we use it for features like cloud save and achievements, governed by Google's own privacy policy.
+Competitive Mode is the **only** feature that sends any player-entered information off the
+device. It is disabled by default, and turning it on requires answering a simple multiplication
+problem — a parental gate intended to keep young children from enabling it without a parent or
+guardian present.
 
-We do not show ads, and the App has no in-app purchases.
+When Competitive Mode is on, after each game the app uploads the following to a public,
+world-readable leaderboard (Google Firebase Firestore):
 
-## 2. How We Use Information
+- Nickname and chosen avatar
+- School name, only if the player entered one
+- Game mode, score, accuracy, and completion time
+- A randomly generated, anonymous device ID (not linked to any personal account)
 
-We use the information described above to:
+**Never collected or uploaded, at any time:** real name, email address, phone number, physical
+address, city/province/country, precise location, age, or grade level.
 
-- Save a player's progress and preferences on their device
-- Power the optional public leaderboard, if enabled
-- Diagnose crashes and improve app stability and performance
-- Understand overall, aggregated usage patterns
+Because the leaderboard is public, the app runs entered nicknames and school names through an
+on-device filter that blocks profanity and personal-information patterns before anything is sent.
+This is a lightweight safeguard, not a guarantee — players and parents should still choose
+nicknames that don't reveal personal information.
 
-We do **not** sell personal information, and we do not use it for targeted advertising.
+To remove your own leaderboard entries, use **Settings → Delete Leaderboard Data** in the app —
+no email required. If you need an entry removed from a device you no longer have (so the in-app
+option isn't available to you), email **support.engrpanda@gmail.com** with the nickname and
+approximate date of the score.
 
-## 3. Children's Privacy
+## Handwriting recognition
 
-MathxTime Adventure is designed with young learners in mind, and we take children's privacy seriously:
+The app's handwriting practice feature uses Google's ML Kit Digital Ink Recognition. After a
+one-time model download, handwriting strokes are recognized **entirely on the device** — stroke
+data is never uploaded to a server.
 
-- No account, email, or real name is required to play.
-- Competitive Mode (the only feature that sends any player-entered information off the device) is **off by default** and must be actively turned on.
-- We recommend that a parent or guardian review the App and decide whether to enable Competitive Mode on a child's behalf.
-- We do not knowingly collect more information from children than described in this policy, and we never collect precise location, contact lists, photos, or other sensitive device data.
+## Sign-in
 
-If you are a parent or guardian and believe your child has provided us with information beyond what's described here, or you would like a leaderboard entry removed, please contact us using the details below.
+The app uses Firebase Authentication in **anonymous mode** to give each device a private,
+random ID. No email, password, phone number, or third-party account is ever requested.
 
-## 4. Data Retention & Deletion
+If a player links a Google Play Games account (used only to support Competitive Mode features
+like sign-in), that is handled directly by Google Play Games Services under Google's own privacy
+policy.
 
-- Local data (progress, settings, stats) stays on the device until the App is uninstalled, or until you use **Settings → Reset All Progress** to clear it yourself.
-- To request deletion of a leaderboard entry submitted via Competitive Mode, contact us (below) with the nickname and approximate date it was submitted, and we will remove it.
+## Diagnostics and analytics
 
-## 5. Data Security
+The app uses:
 
-We use industry-standard services (Google Firebase) to store any data that leaves the device, and we limit what's collected to the minimum needed for the leaderboard feature to work, as described above.
+- **Firebase Crashlytics** to receive crash reports so we can fix bugs. Crash reports are not
+  linked to a player's identity.
+- **Firebase Analytics** to understand aggregated usage patterns (e.g. which game modes are
+  played). This data is not linked to individual player identities and is not used for
+  advertising.
 
-## 6. Changes to This Policy
+## Advertising
 
-We may update this policy as the App evolves. Changes will be posted to this page with an updated effective date.
+The app shows **no advertisements** and does not use any ad network or ad SDK.
 
-## 7. Contact Us
+## Purchases
 
-If you have questions about this privacy policy or how the App handles data, contact us at:
+The app includes an in-game virtual currency (Coins and Crystals/Gems) earned by playing, used to
+unlock cosmetic pens and companions. Crystals can also be bought with real money in fixed-price,
+fixed-quantity "Crystal Pack" bundles (for example, a specific price for a specific number of
+Crystals — never a randomized reward, loot box, or mystery prize).
 
-**lpcdigitalsolutions@gmail.com**
+Real-money purchases are processed entirely by Google Play Billing — this app never sees or
+stores payment card details, billing address, or other payment information. Before the Play
+purchase sheet opens, the app shows the same parental math challenge described above under
+Competitive Mode, so a young child can't complete a real-money purchase without a parent or
+guardian present.
 
----
+## Server-side voucher redemption
 
-*This document is provided as a good-faith description of the App's actual data practices at the time of writing. If you require a policy reviewed by a lawyer for a specific jurisdiction (e.g., COPPA, GDPR-K, or a specific app store's requirements), please have it reviewed before relying on it for a store submission.*
+If a player redeems a promotional voucher code, the code and the player's anonymous device ID are
+sent to a server function to validate and apply the reward. No other personal information is
+involved.
+
+## Children's privacy
+
+MathxTime Adventure is designed to be safe for children to use without adult supervision for its
+core, offline experience. No account, real name, or email is ever required. The only feature that
+sends any information off the device — Competitive Mode — is off by default and gated behind a
+parental math challenge. We do not knowingly collect real names, contact information, or precise
+location from any user, child or adult.
+
+## Data retention and deletion
+
+- On-device data (profile, progress) is deleted when the app is uninstalled, or immediately if the
+  player uses the in-app profile reset.
+- Leaderboard entries can be deleted at any time from **Settings → Delete Leaderboard Data**,
+  which removes every entry that device has ever submitted, across every world and mode,
+  immediately. You can also request removal by emailing support (see Contact below) if you'd
+  rather not use the in-app option, or if the entry was submitted from a device you no longer
+  have access to.
+
+## Changes to this policy
+
+If this policy changes, we'll update this document and the "Last updated" date above.
+
+## Contact
+
+Questions or requests about this policy or your data: **support.engrpanda@gmail.com**
