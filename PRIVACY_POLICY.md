@@ -138,13 +138,23 @@ or profiling.
 
 ## Data retention and deletion
 
-- On-device data (profile, progress) is deleted when the app is uninstalled, or immediately if the
-  player uses the in-app profile reset.
-- Leaderboard entries can be deleted at any time from **Settings → Delete Leaderboard Data**,
-  which removes every entry that device has ever submitted, across every world and mode,
-  immediately. You can also request removal by emailing support (see Contact below) if you'd
-  rather not use the in-app option, or if the entry was submitted from a device you no longer
-  have access to.
+MathxTime Adventure does not create a traditional account of its own — there is no username,
+email, or password tied to your data. Instead:
+
+- **On-device data** (profile, progress, coins, gems, streaks) is deleted immediately when the
+  player uses the in-app profile reset in **Settings**, or when the app is uninstalled.
+- **Leaderboard data** (nickname, avatar, school name if entered, scores, anonymous device ID) can
+  be deleted at any time from **Settings → Delete Leaderboard Data**, which permanently removes
+  every entry that device has ever submitted, across every world and mode, immediately. No data is
+  retained after this action. If you'd rather not use the in-app option, or the entry was
+  submitted from a device you no longer have access to, email
+  **support.engrpanda@gmail.com** with the nickname and approximate date of the score, and we will
+  delete it within a reasonable time.
+- **Optional Google Play Games link:** if you linked a Google Play Games account, that account is
+  owned and managed by Google, not by this app. To remove that link or delete data associated with
+  your Google Account, use Google Play Games' own account settings or
+  https://myaccount.google.com — this app has no ability to delete a Google Account on your
+  behalf.
 
 ## Changes to this policy
 
