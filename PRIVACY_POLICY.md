@@ -1,6 +1,9 @@
 # MathxTime Adventure Privacy Policy
 
-_Last updated: August 4, 2026_
+_Last updated: August 5, 2026_
+
+**Developer:** EngrPanda
+**Contact:** support.engrpanda@gmail.com
 
 This policy explains what information MathxTime Adventure ("the app") collects, how it's used,
 and the choices you and your child have — written for both parents and Google Play review.
@@ -102,13 +105,36 @@ If a player redeems a promotional voucher code, the code and the player's anonym
 sent to a server function to validate and apply the reward. No other personal information is
 involved.
 
+## Third-party services we use
+
+The app relies on the following Google services. Each processes data under Google's own privacy
+terms, linked below:
+
+- **Google Play Games Services** (optional sign-in) — https://policies.google.com/privacy
+- **Firebase Authentication** (anonymous mode) — https://firebase.google.com/support/privacy
+- **Firebase Analytics** — https://firebase.google.com/support/privacy
+- **Firebase Crashlytics** — https://firebase.google.com/support/privacy
+- **Cloud Firestore** (leaderboard storage) — https://firebase.google.com/support/privacy
+- **Google Play Billing** (in-app purchases) — https://policies.google.com/privacy
+- **ML Kit Digital Ink Recognition** (on-device handwriting recognition) —
+  https://developers.google.com/ml-kit/terms
+
+### International data transfers
+
+Because Firebase and other Google services may process and store data on servers located outside
+your country, any information sent through Competitive Mode (see above) may be transferred to and
+processed on Google's servers in accordance with Google's Privacy Policy
+(https://policies.google.com/privacy). Handwriting recognition via ML Kit happens entirely on your
+device and is not transferred anywhere.
+
 ## Children's privacy
 
 MathxTime Adventure is designed to be safe for children to use without adult supervision for its
 core, offline experience. No account, real name, or email is ever required. The only feature that
 sends any information off the device — Competitive Mode — is off by default and gated behind a
 parental math challenge. We do not knowingly collect real names, contact information, or precise
-location from any user, child or adult.
+location from any user, child or adult. We do not use data collected from children for advertising
+or profiling.
 
 ## Data retention and deletion
 
